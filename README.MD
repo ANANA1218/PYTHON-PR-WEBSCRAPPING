@@ -16,13 +16,13 @@ Ce projet vise à récupérer des articles à partir du site web BBC, les stocke
 - **Code Python**:
 
 resultat 1:
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 resulat 2 :
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 resulat 3 :
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## Étape 2 : Récupération de plusieurs Articles
 
@@ -32,17 +32,17 @@ resulat 3 :
 
 Import important :
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 resultat 1:
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 resulat 2 :
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 resulat 3 :
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ## Étape 3 : Enregistrement des Données dans la Base de Données
 
@@ -51,23 +51,23 @@ resulat 3 :
 
 Import important: 
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 
 Connexion à la base de données 
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 
 Création de la table Articles:
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 
 - **Résultat**:
   - Les données ont été enregistrées dans la table 'articles' de la base de données.
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 ## Étape 4 : Analyse Rapide des Données Récupérées
 
