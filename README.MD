@@ -101,4 +101,4 @@ Création de la table Articles:
 
 - **Remarque**:
 
-Assurez-vous d'ajuster les chemins et les noms de fichiers dans le `Dockerfile`, le `docker-compose.yml` et le README.md selon votre structure de répertoire et le nom de votre script.
+Assurez-vous d'ajuster les chemins et les noms de fichiers dans le `Dockerfile`, le `docker-compose.yml` selon votre structure de répertoire et le nom de votre script.
