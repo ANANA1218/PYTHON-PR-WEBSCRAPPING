@@ -78,3 +78,27 @@ Création de la table Articles:
 - Nombre d'articles avec lien : 34
 - Nombre d'articles sans lien : 2
 
+## Étape 5 : Docker
+
+- **Prérequis**:
+
+- Docker
+- Docker Compose
+
+- **Étapes**:
+
+- Assurez-vous que Docker est installé sur votre machine.
+- Placez-vous à la racine du projet.
+- Construisez l'image Docker en exécutant la commande suivante :
+
+  docker-compose build
+  ![alt text](images/imag.png)
+
+- Exécutez le conteneur Docker en exécutant la commande suivante :
+
+ docker-compose up
+
+
+- **Remarque**:
+
+Assurez-vous d'ajuster les chemins et les noms de fichiers dans le `Dockerfile`, le `docker-compose.yml` et le README.md selon votre structure de répertoire et le nom de votre script.
