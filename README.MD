@@ -1,13 +1,17 @@
 # Web Scraping et Analyse de Données
 
-Ce projet vise à récupérer des articles à partir du site web BBC, les stocker dans une base de données MySQL, puis effectuer une analyse rapide des données récupérées.
+Ce projet vise à récupérer des articles à partir du site web de la BBC, les stocker dans une base de données MySQL, puis effectuer une analyse rapide des données récupérées.
 
 ## Instructions pour Lancer le Code
 
-1. Cloner ce repository.
-2. Installer les dépendances Python (`pip install -r requirements.txt`).
-3. Exécuter le code Python dans un environnement compatible pour ma par j'ai utiliser jupyter don cpour le lancer il faut faire `jupyter notebook`.
+1. Clonez ce repository.
+2. Installez les dépendances Python en exécutant la commande suivante :
 
+    pip install -r requirements.txt
+
+3. Exécutez le code Python dans un environnement compatible. Par exemple, si vous utilisez Jupyter Notebook, lancez-le en exécutant :
+
+   jupyter notebook
 
 ## Étape 1 : Récupération d'un Article
 
@@ -15,13 +19,14 @@ Ce projet vise à récupérer des articles à partir du site web BBC, les stocke
 - **Outil de Scraping**: BeautifulSoup (bs4)
 - **Code Python**:
 
-resultat 1:
+Résultat 1:
 ![alt text](images/image-2.png)
-resulat 2 :
+
+Résultat 2 :
 
 ![alt text](images/image.png)
 
-resulat 3 :
+Résultat 3 :
 ![alt text](images/image-1.png)
 
 ## Étape 2 : Récupération de plusieurs Articles
@@ -34,13 +39,13 @@ Import important :
 
 ![alt text](images/image-7.png)
 
-resultat 1:
+Résultat 1:
 ![alt text](images/image-2.png)
 
-resulat 2 :
+Résultat 2 :
 ![alt text](images/image-3.png)
 
-resulat 3 :
+Résultat 3 :
 
 ![alt text](images/image-4.png)
 
@@ -54,12 +59,11 @@ Import important:
 ![alt text](images/image-6.png)
 
 
-Connexion à la base de données 
+Connexion à la base de données :
 
 ![alt text](images/image-5.png)
 
-
-Création de la table Articles:
+Création de la table Articles :
 
 ![alt text](images/image-8.png)
 
@@ -92,6 +96,7 @@ Création de la table Articles:
 - Construisez l'image Docker en exécutant la commande suivante :
 
   docker-compose build
+
   ![alt text](images/imag.png)
 
 - Exécutez le conteneur Docker en exécutant la commande suivante :
@@ -101,4 +106,4 @@ Création de la table Articles:
 
 - **Remarque**:
 
-Assurez-vous d'ajuster les chemins et les noms de fichiers dans le `Dockerfile`, le `docker-compose.yml` selon votre structure de répertoire et le nom de votre script.
+Assurez-vous d'ajuster les chemins et les noms de fichiers dans le Dockerfile et le docker-compose.yml selon votre structure de répertoire et le nom de votre script.
